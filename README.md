@@ -1,5 +1,23 @@
-# Camels-Transport
+# Camels-Club
 
+
+## What is the camel club
+An application for transporting camels within the Kingdom of Saudi Arabia, the user of the application can create a request and search for a driver as soon as possible
+
+## What makes this application useful to users?
+
+- Users can get drivers quickly.
+- The driver can be tracked while he is on the road and how far he is from users.
+- There are multiple ways to pay.
+- It contains a video explaining how the application works
+- Users can rate drivers and see driver's previous ratings
+
+
+> Important note: This is not the final version of the application as it is under development.
+
+
+## Developed By:
+**This app is fully developed by ["Ahmed El Sawy"](https://www.linkedin.com/in/engahmedsawy/)**
 
 
 
