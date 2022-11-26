@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dtp-p8-LvN">
+    <device id="retina4_0" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Fnd-62-7zz">
+            <objects>
+                <viewController id="Dtp-p8-LvN" sceneMemberID="viewController">
+                    <view key="view" autoresizesSubviews="NO" alpha="0.94999999999999996" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="guO-oA-Nhw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" insetsLayoutMarginsFromSafeArea="NO" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="3lX-Ut-9ad">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                                </accessibility>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="std-WI-COp"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" notEnabled="YES"/>
+                        </accessibility>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="3lX-Ut-9ad" secondAttribute="trailing" id="3kT-h5-e1B"/>
+                            <constraint firstItem="3lX-Ut-9ad" firstAttribute="top" secondItem="guO-oA-Nhw" secondAttribute="topMargin" id="J1u-3A-9pm"/>
+                            <constraint firstAttribute="bottom" secondItem="3lX-Ut-9ad" secondAttribute="bottom" id="KBi-zr-20t"/>
+                            <constraint firstItem="3lX-Ut-9ad" firstAttribute="trailingMargin" secondItem="guO-oA-Nhw" secondAttribute="trailingMargin" id="PRc-OA-t0u">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-8"/>
+                            </constraint>
+                            <constraint firstAttribute="bottomMargin" secondItem="3lX-Ut-9ad" secondAttribute="bottom" id="hlf-zh-kDD"/>
+                            <constraint firstItem="3lX-Ut-9ad" firstAttribute="top" secondItem="guO-oA-Nhw" secondAttribute="topMargin" id="qOA-yG-Wb3"/>
+                            <constraint firstItem="3lX-Ut-9ad" firstAttribute="leading" secondItem="guO-oA-Nhw" secondAttribute="leadingMargin" id="y6V-X8-5zh"/>
+                            <constraint firstItem="3lX-Ut-9ad" firstAttribute="leading" secondItem="guO-oA-Nhw" secondAttribute="leading" id="zPX-0Q-mYq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lvb-Jr-bCV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-0.80000000000000004" y="-0.44977511244377816"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Splash" width="700" height="1368.5"/>
+    </resources>
+</document>
